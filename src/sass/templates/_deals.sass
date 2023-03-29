@@ -1,0 +1,96 @@
+.deals, .goods
+    &__container
+        padding-bottom: 4.289rem
+    &__title
+        margin-bottom: 2.5rem
+    &-card
+        position: relative
+        z-index: 2
+        margin-bottom: 2.429rem
+        padding: 1.429rem
+        overflow: hidden
+        border-radius: 10px
+        border: 1px solid #d9d9d9
+        cursor: default
+        transition: 0.3s
+        &:hover
+            background: $light
+            box-shadow: 0 0 3px rgba($dark, 0.1)
+            .card-img
+                &__back
+                    color: #F1F0EB
+                img
+                    transform: translate(25px, 10px)
+        &__info
+            min-height: 4rem
+        &__title
+            margin-bottom: 6px
+        .card-title
+            &__text
+                font-size: 1.143rem
+                font-weight: 700
+                line-height: 1.143rem
+            &__new
+                text-transform: uppercase
+                color: $primary
+                text-align: right
+                font-size: 10px
+                &::before
+                    content: ""
+                    display: inline-block
+                    vertical-align: middle
+                    width: 5px
+                    height: 5px
+                    margin-right: 3px
+                    background: $primary
+                    border-radius: 50%
+        &__img
+            position: relative
+            z-index: 5
+            display: flex
+            align-items: center
+            justify-content: center
+            margin-top: 1.249rem
+            img
+                transition: 0.3s
+        .card-img
+            &__back
+                position: absolute
+                z-index: -2
+                top: 0
+                left: 50%
+                transform: translateX(-50%)
+                font-size: 2.143rem
+                letter-spacing: 3px
+                color: $light
+                text-transform: uppercase
+                font-family: 'Eurostile Extended Black', sans-serif
+                transition: 0.3s
+        &__props
+            margin-top: 1.249rem
+            margin-bottom: 0.714rem
+        .card-props
+            display: flex
+            align-items: center
+            &__item
+                display: flex
+                align-items: center
+                margin-right: 1.249rem
+                font-size: 10px
+                font-weight: 700
+                text-transform: uppercase
+                &:last-child
+                    margin-right: 0
+                p
+                    margin-left: 5px
+        &__btn
+            padding: 14px
+            color: $dark
+            font-family: 'Eurostile Extended Black', sans-serif
+            border-color: $dark
+            font-size: 1rem
+            transition: 0.3s
+            &:hover
+                transform: scale(1.01)
+    &__btn, &__btnHide
+        display: none

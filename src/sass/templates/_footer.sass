@@ -1,0 +1,130 @@
+.footer
+    &-top
+        padding: 3.357rem 0
+        border-top: 1px solid #d9d9d9
+        border-bottom: 1px solid #d9d9d9
+    &-info
+        &__logo
+            margin-bottom: 1.286rem
+        &__text
+            max-width: 16.857rem
+            margin-bottom: 3.357rem
+            color: $secondary
+            font-size: 1rem
+            line-height: 1.286rem
+        .footer-nav
+            display: flex
+            align-items: center
+            &__link
+                margin-right: 1.143rem
+                text-transform: uppercase
+                font-size: 12px
+                color: $dark
+                &:last-child
+                    margin-right: 0
+    &-contacts
+        &__phone
+            margin-bottom: 1.429rem
+        .contacts-phone
+            &__text
+                margin-bottom: 1.286rem
+                font-family: 'Inter Light', sans-serif
+                font-size: 12px
+            &__number
+                font-size: 1.714rem
+                letter-spacing: 1.5px
+                color: $dark
+        &__messangers
+            margin-bottom: 1.429rem
+        &__btn
+            display: inline-block
+            margin: 1.429rem 0
+            padding: 1.286rem 3.571rem
+            border-radius: 6px
+            background: $dark
+            color: $light
+            font-size: 14px
+            font-family: 'Inter Medium', sans-serif
+            letter-spacing: 1px
+        .contacts-address
+            &__text
+                margin-bottom: 7px
+                font-family: 'Inter Light', sans-serif
+                font-size: 12px
+            &__info
+                font-size: 12px
+    &-bottom
+        padding-top: 1.429rem
+        padding-bottom: 10rem
+    &-term
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        min-height: 7.143rem
+        padding: 1rem
+        border-radius: 6px
+        border: 1px solid #d9d9d9
+        &__icons
+            display: flex
+            justify-content: space-between
+        .term-popup
+            position: relative
+            width: 16px
+            height: 16px
+            &:hover
+                .term-popup__text
+                    display: block
+            &__img
+                cursor: pointer
+                object-fit: contain
+            &__text
+                display: none
+                position: absolute
+                z-index: 5
+                top: 50%
+                left: 100%
+                width: 12.143rem
+                height: 50px
+                padding: 0.714rem 5px
+                font-family: 'Inter Light', sans-serif
+                font-size: 0.714rem
+                border-radius: 3.5px
+                color: $secondary
+                border: 0.5px solid #d9d9d9
+                background: $body-bg
+                transform: translate(20px,-50%)
+                transition: 0.3s
+                &::before
+                    content: ""
+                    position: absolute
+                    top: 50%
+                    left: 0
+                    z-index: -2
+                    display: inline-block
+                    width: 40px
+                    height: 40px
+                    background: $body-bg
+                    transform: translate(-20px,-50%) rotate(45deg)
+                    border-radius: 10px
+                    border-left: 0.5px solid #d9d9d9
+                    border-bottom: 0.5px solid #d9d9d9
+        &__text
+            font-size: 11px
+            font-weight: 700
+            text-transform: uppercase
+            text-align: right
+            color: $secondary
+    .follow-item
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        min-height: 7.143rem
+        padding: 1rem
+        border-radius: 6px
+        border: 1px solid #d9d9d9
+        &__text
+            font-size: 11px
+            font-weight: 700
+            text-transform: uppercase
+            text-align: right
+            color: $secondary

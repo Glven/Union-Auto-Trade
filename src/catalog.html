@@ -1,0 +1,2023 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Union Auto Trade</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="menu">
+        <div class="menu__wrapper">
+            <div class="menu__close"><span></span></div>
+            <a href="index.html" class="menu__logo"><img src="img/minilogo.png" alt=""></a>
+            <div class="menu-nav">
+                <a href="#" class="menu-nav__link">For sale</a>
+                <a href="#" class="menu-nav__link">Autoparts</a>
+                <a href="#" class="menu-nav__link">Servicing</a>
+            </div>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="hero__container hero__container--height-auto">
+            <header class="header header--light">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="header-changes">
+                                    <div class="header-buttons header-changes__button">
+                                        <div class="heade-buttons__btn">
+                                            <p>English</p>
+                                        </div>
+                                        <ul class="header-buttons__droplist">
+                                            <li>English</li>
+                                            <li>Russian</li>
+                                        </ul>
+                                    </div>
+                                    <div class="header-buttons header-changes__button">
+                                        <div class="header-buttons__btn">
+                                            <p>Currency:&ensp;</p>
+                                            <span>AED</span>
+                                        </div>
+                                        <ul class="header-buttons__droplist">
+                                            <li>AED</li>
+                                            <li>US</li>
+                                            <li>RUB</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-8 col-lg-9">
+                                <div class="header-contacts">
+                                    <a href="tel:+97146086808" class="header-phone header-contacts__phone">+ 971 4 608 68 08</a>
+                                    <div class="header-callback header-contacts__callback">
+                                        Request a callback
+                                    </div>
+                                    <div class="contact">
+                                        <a href="#" class="contact__links contact__links--whatsapp"></a>
+                                        <a href="#" class="contact__links contact__links--telegram"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.header-top -->
+                <div class="header-bottom">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-8 col-md-4 col-lg-2 order-2 order-md-1">
+                                <div class="header-logo">
+                                    <div class="logo">
+                                        <a href="index.html"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-6 col-xl-4 offset-lg-1 offset-xl-2 order-1 order-md-2">
+                                <div class="open-menu">
+                                    <span></span>
+                                </div>
+                                <nav class="nav">
+                                    <div class="nav-wrapper">
+                                        <a href="#" class="nav__link">for sale</a>
+                                        <a href="#" class="nav__link">autoparts</a>
+                                        <a href="#" class="nav__link">servicing</a>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-2 order-3 order-md-3">
+                                <div class="header-hideCall">
+                                    <a href="#" class="header-hideCall__btn"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.header-bottom -->
+            </header>
+            <!-- /.header -->
+            <div class="container">
+                <div class="hero__text hero__text--light">
+                    <h1 class="hero__title">find your next car</h1>
+                    <h2 class="hero__subtitle">premium car from dubai</h2>
+                </div>
+            </div>
+        </div>
+        <!-- /.hero__container -->
+    </section>
+    <!-- /.hero -->
+
+    <section class="catalog">
+        <div class="catalog__container">
+            <div class="container">
+                <div class="catalog__filter-btn">Filter</div>
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="catalog__sidebar">
+                            <form action="#" class="filter catalog__filter">
+                                <div class="filter__close"><span></span></div>
+                                <div class="filter-item">
+                                    <h3 class="filter__title">Sort by</h3>
+                                    <select name="sortby" id="sortby" class="select">
+                                        <option value="features" selected>Featured</option>
+                                        <option value="your1">your option 1</option>
+                                        <option value="your2">your option 2</option>
+                                    </select>
+                                </div>
+                                <div class="filter-item filter-price">
+                                    <h3 class="filter__title">Price</h3>
+                                    <div class="filter-price__item">
+                                        <select name="min" id="min" class="select">
+                                            <option value="min" selected>Min</option>
+                                            <option value="100000">100000</option>
+                                            <option value="250000">250000</option>
+                                            <option value="500000">500000</option>
+                                        </select>
+                                        <select name="max" id="max" class="select">
+                                            <option value="max" selected>Max</option>
+                                            <option value="1000000">1 000 000</option>
+                                            <option value="2000000">2 000 000</option>
+                                        </select>
+                                    </div>
+                                    <p class="filter-price__text">Price based on <span>3000</span></p>
+                                </div>
+                                <div class="filter-item filter-style">
+                                    <h3 class="filter__title">Lifestyles</h3>
+                                    <div class="filter-style__wrapper">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="family">
+                                                    <label for="family" class="filter-style__label">Family</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="first">
+                                                    <label for="first" class="filter-style__label">First car</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="electric">
+                                                    <label for="electric" class="filter-style__label">Electric</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="hybrid">
+                                                    <label for="hybrid" class="filter-style__label">Hybrid</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="offroad">
+                                                    <label for="offroad" class="filter-style__label">Offroad 4x4</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="tradie">
+                                                    <label for="tradie" class="filter-style__label">Tradie</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="performance">
+                                                    <label for="performance" class="filter-style__label">Performance</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="filter-style__checkboxes">
+                                                    <input type="checkbox" id="prestige">
+                                                    <label for="prestige" class="filter-style__label">Prestige</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-item filter-deals">
+                                    <h3 class="filter__title">Deals</h3>
+                                    <div class="filter-deals__item">
+                                        <label for="all" class="filter-deals__label">All deals</label>
+                                        <input type="checkbox" id="all" class="filter-deals__checkbox">
+                                    </div>
+                                </div>
+                                <div class="filter-item">
+                                    <h3 class="filter__title">Body type</h3>
+                                    <div class="filter-select">
+                                        <div class="row">
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="hatch">
+                                                    <label for="hatch" class="filter-select__label ">
+                                                        <img src="img/types/hatch.png" alt="hatch">
+                                                        <span>Hatch</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="suv">
+                                                    <label for="suv" class="filter-select__label ">
+                                                        <img src="img/types/suv.png" alt="">
+                                                        <span>SUV</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="sedan">
+                                                    <label for="sedan" class="filter-select__label ">
+                                                        <img src="img/types/sedan.png" alt="">
+                                                        <span>Sedan</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="ute">
+                                                    <label for="ute" class="filter-select__label ">
+                                                        <img src="img/types/ute.png" alt="">
+                                                        <span>Ute</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="cab_chassis">
+                                                    <label for="cab_chassis" class="filter-select__label ">
+                                                        <img src="img/types/cab.png" alt="">
+                                                        <span>Cab Chassis</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="wagon">
+                                                    <label for="wagon" class="filter-select__label ">
+                                                        <img src="img/types/wagon.png" alt="">
+                                                        <span>Wagon</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="convertible">
+                                                    <label for="convertible" class="filter-select__label">
+                                                        <img src="img/types/convertible.png" alt="">
+                                                        <span>Convertible</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="coupe">
+                                                    <label for="coupe" class="filter-select__label">
+                                                        <img src="img/types/coupe.png" alt="">
+                                                        <span>Coupe</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="people_mover">
+                                                    <label for="people_mover" class="filter-select__label">
+                                                        <img src="img/types/peoplemover.png" alt="">
+                                                        <span>People Mover</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="Van">
+                                                    <label for="Van" class="filter-select__label">
+                                                        <img src="img/types/van.png" alt="">
+                                                        <span>Van</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="bus">
+                                                    <label for="bus" class="filter-select__label">
+                                                        <img src="img/types/bus.png" alt="">
+                                                        <span>Bus</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item">
+                                                    <input type="checkbox" name="type" class="filter-select__checkbox" id="light_truck">
+                                                    <label for="light_truck" class="filter-select__label">
+                                                        <img src="img/types/lighttruck.png" alt="">
+                                                        <span>Light Truck</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-item">
+                                    <h3 class="filter__title">Makes</h3>
+                                    <div class="filter-select">
+                                        <div class="row">
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="abarth">
+                                                    <label for="abarth" class="filter-select__label ">
+                                                        <img src="img/makes/abart.png" alt="">
+                                                        <span>Abarth</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="alfa_romeo_">
+                                                    <label for="alfa_romeo_" class="filter-select__label ">
+                                                        <img src="img/makes/alfaromeo.png" alt="">
+                                                        <span>Alfa Romeo</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="alfa_romeo_2">
+                                                    <label for="alfa_romeo_2" class="filter-select__label ">
+                                                        <img src="img/makes/alfaromeo2.png" alt="">
+                                                        <span>Alfa Romeo</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="aston_martin">
+                                                    <label for="aston_martin" class="filter-select__label ">
+                                                        <img src="img/makes/aston.png" alt="">
+                                                        <span>Aston Martin</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="audi">
+                                                    <label for="audi" class="filter-select__label ">
+                                                        <img src="img/makes/audi.png" alt="">
+                                                        <span>Audi</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="bentley">
+                                                    <label for="bentley" class="filter-select__label ">
+                                                        <img src="img/makes/bentley.png" alt="">
+                                                        <span>Bentley</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="bmw">
+                                                    <label for="bmw" class="filter-select__label ">
+                                                        <img src="img/makes/bmw.png" alt="">
+                                                        <span>BMW</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="byd">
+                                                    <label for="byd" class="filter-select__label ">
+                                                        <img src="img/makes/byd.png" alt="">
+                                                        <span>BYD</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="chevrolet">
+                                                    <label for="chevrolet" class="filter-select__label ">
+                                                        <img src="img/makes/chevrolet.png" alt="">
+                                                        <span>Chevrolet</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="citroen">
+                                                    <label for="citroen" class="filter-select__label ">
+                                                        <img src="img/makes/citroen.png" alt="">
+                                                        <span>Citroen</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="cupra">
+                                                    <label for="cupra" class="filter-select__label ">
+                                                        <img src="img/makes/cupra.png" alt="">
+                                                        <span>CUPRA</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="ferrari">
+                                                    <label for="ferrari" class="filter-select__label ">
+                                                        <img src="img/makes/ferrari.png" alt="">
+                                                        <span>Ferrari</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="fiat">
+                                                    <label for="fiat" class="filter-select__label ">
+                                                        <img src="img/makes/citroen.png" alt="">
+                                                        <span>Fiat</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="ford">
+                                                    <label for="ford" class="filter-select__label ">
+                                                        <img src="img/makes/cupra.png" alt="">
+                                                        <span>Ford</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="genesis">
+                                                    <label for="genesis" class="filter-select__label ">
+                                                        <img src="img/makes/ferrari.png" alt="">
+                                                        <span>Genesis</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="gwm">
+                                                    <label for="gwm" class="filter-select__label ">
+                                                        <img src="img/makes/gwm.png" alt="">
+                                                        <span>GWM</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="honda">
+                                                    <label for="honda" class="filter-select__label ">
+                                                        <img src="img/makes/honda.png" alt="">
+                                                        <span>Honda</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="hyundai">
+                                                    <label for="hyundai" class="filter-select__label ">
+                                                        <img src="img/makes/hyndai.png" alt="">
+                                                        <span>Hyundai</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="ineos">
+                                                    <label for="ineos" class="filter-select__label ">
+                                                        <img src="img/makes/ineos.png" alt="">
+                                                        <span>INEOS</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="isuzu">
+                                                    <label for="isuzu" class="filter-select__label ">
+                                                        <img src="img/makes/honda.png" alt="">
+                                                        <span>Isuzu</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="jaguar">
+                                                    <label for="jaguar" class="filter-select__label ">
+                                                        <img src="img/makes/jaguar.png" alt="">
+                                                        <span>Jaguar</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="jeep">
+                                                    <label for="jeep" class="filter-select__label ">
+                                                        <img src="img/makes/jeep.png" alt="">
+                                                        <span>Jeep</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="kia">
+                                                    <label for="kia" class="filter-select__label ">
+                                                        <img src="img/makes/kia.png" alt="">
+                                                        <span>Kia</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="lamborghini">
+                                                    <label for="lamborghini" class="filter-select__label ">
+                                                        <img src="img/makes/lamborgini.png" alt="">
+                                                        <span>Lamborghini</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="land_rover">
+                                                    <label for="land_rover" class="filter-select__label ">
+                                                        <img src="img/makes/landrover.png" alt="">
+                                                        <span>Land Roven</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="ldv">
+                                                    <label for="ldv" class="filter-select__label ">
+                                                        <img src="img/makes/ldv.png" alt="">
+                                                        <span>LDV</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="lexus">
+                                                    <label for="lexus" class="filter-select__label ">
+                                                        <img src="img/makes/lexus.png" alt="">
+                                                        <span>Lexus</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="mahindra">
+                                                    <label for="mahindra" class="filter-select__label ">
+                                                        <img src="img/makes/mahindra.png" alt="">
+                                                        <span>Mahindra</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="maserati">
+                                                    <label for="maserati" class="filter-select__label ">
+                                                        <img src="img/makes/maserati.png" alt="">
+                                                        <span>Maserati</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="mazda">
+                                                    <label for="mazda" class="filter-select__label ">
+                                                        <img src="img/makes/mazda.png" alt="">
+                                                        <span>Mazda</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="mclaren">
+                                                    <label for="mclaren" class="filter-select__label ">
+                                                        <img src="img/makes/mclaren.png" alt="">
+                                                        <span>McLaren</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="mercedes">
+                                                    <label for="mercedes" class="filter-select__label ">
+                                                        <img src="img/makes/merc.png" alt="">
+                                                        <span>Mercedes-Benz</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="mg">
+                                                    <label for="mg" class="filter-select__label ">
+                                                        <img src="img/makes/mg.png" alt="">
+                                                        <span>MG</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="mini">
+                                                    <label for="mini" class="filter-select__label ">
+                                                        <img src="img/makes/mini.png" alt="">
+                                                        <span>MINI</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="mitsubishi">
+                                                    <label for="mitsubishi" class="filter-select__label ">
+                                                        <img src="img/makes/Mitsubishi.png" alt="">
+                                                        <span>Mitsubishi</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="nissan">
+                                                    <label for="nissan" class="filter-select__label ">
+                                                        <img src="img/makes/Nissan.png" alt="">
+                                                        <span>Nissan</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="peugeot">
+                                                    <label for="peugeot" class="filter-select__label ">
+                                                        <img src="img/makes/peugeot.png" alt="">
+                                                        <span>Peugeot</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="polestar">
+                                                    <label for="polestar" class="filter-select__label ">
+                                                        <img src="img/makes/polestar.png" alt="">
+                                                        <span>Polestar</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="posche">
+                                                    <label for="posche" class="filter-select__label ">
+                                                        <img src="img/makes/posche.png" alt="">
+                                                        <span>Porsche</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="ram">
+                                                    <label for="ram" class="filter-select__label ">
+                                                        <img src="img/makes/ram.png" alt="">
+                                                        <span>RAM</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="renault">
+                                                    <label for="renault" class="filter-select__label ">
+                                                        <img src="img/makes/renault.png" alt="">
+                                                        <span>Renault</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="rolls-royce">
+                                                    <label for="rolls-royce" class="filter-select__label ">
+                                                        <img src="img/makes/rolls.png" alt="">
+                                                        <span>Rolls-Royce</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="skoda">
+                                                    <label for="skoda" class="filter-select__label ">
+                                                        <img src="img/makes/skoda.png" alt="">
+                                                        <span>SKODA</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="ssangyong">
+                                                    <label for="ssangyong" class="filter-select__label ">
+                                                        <img src="img/makes/syoung.png" alt="">
+                                                        <span>SsangYong</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="subaru">
+                                                    <label for="subaru" class="filter-select__label ">
+                                                        <img src="img/makes/subaru.png" alt="">
+                                                        <span>Subaru</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="suzuki">
+                                                    <label for="suzuki" class="filter-select__label ">
+                                                        <img src="img/makes/suzuki.png" alt="">
+                                                        <span>Suzuki</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="tesla">
+                                                    <label for="tesla" class="filter-select__label ">
+                                                        <img src="img/makes/tesla.png" alt="">
+                                                        <span>Tesla</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="toyota">
+                                                    <label for="toyota" class="filter-select__label ">
+                                                        <img src="img/makes/toyota.png" alt="">
+                                                        <span>Toyota</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="volkswagen">
+                                                    <label for="volkswagen" class="filter-select__label ">
+                                                        <img src="img/makes/volkswagen.png" alt="">
+                                                        <span>Volkswagen</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 col-lg-6 col-xl-4">
+                                                <div class="filter-select__item ">
+                                                    <input type="checkbox" name="makes" class="filter-select__checkbox" id="volvo">
+                                                    <label for="volvo" class="filter-select__label ">
+                                                        <img src="img/makes/volvo.png" alt="">
+                                                        <span>Volvo</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- /.filter catalog__filter -->
+                        </div>
+                        <!-- /.catalog__sidebar -->
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="catalog__wrapper goods">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus LX LX500d</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-lx.png" alt="lexus-lx">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>5.7 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="detail.html" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Mitsubishi Pajero Sport GLX</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2023
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">mitsubishi</span>
+                                            <img src="img/mitsubishi-pajero.png" alt="mitsubishi-pajero">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2.4 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-xl-4">
+                                    <div class="goods-card">
+                                        <div class="goods-card__info">
+                                            <div class="goods-card__title card-title">
+                                                <div class="row">
+                                                    <div class="col-9">
+                                                        <p class="card-title__text">Lexus UX UX200 Luxury</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p class="card-title__new">new</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.goods-card__title -->
+                                            <p class="goods-card__year">
+                                                2022
+                                            </p>
+                                            <!-- /.goods-card__year -->
+                                        </div>
+                                        <div class="goods-card__img card-img">
+                                            <span class="card-img__back">lexus</span>
+                                            <img src="img/lexus-ux.png" alt="lexus-ux">
+                                        </div>
+                                        <!-- /.goods-card__img -->
+                                        <div class="goods-card__props card-props">
+                                            <div class="card-props__item">
+                                                <img src="img/engine.png" alt="engine">
+                                                <p>2 L</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/transmission.png" alt="transmission">
+                                                <p>AWD</p>
+                                            </div>
+                                            <div class="card-props__item">
+                                                <img src="img/type.png" alt="type">
+                                                <p>suv</p>
+                                            </div>
+                                        </div>
+                                        <!-- /.goods-card__props -->
+                                        <a href="#" class="btn goods-card__btn">
+                                            458 750 AED
+                                        </a>
+                                        <!-- /.btn goods-card__btn -->
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-pagination">
+                    <div class="catalog-pagination__wrapper">
+                        <button class="catalog-pagination__item catalog-pagination__arrow">&laquo;</button>
+                        <button class="catalog-pagination__item catalog-pagination__arrow">&lsaquo;</button>
+                        <button class="catalog-pagination__item">1</button>
+                        <button class="catalog-pagination__item">2</button>
+                        <button class="catalog-pagination__item">3</button>
+                        <button class="catalog-pagination__item catalog-pagination__arrow">&rsaquo;</button>
+                        <button class="catalog-pagination__item catalog-pagination__arrow">&raquo;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.catalog__container -->
+    </section>
+    <!-- /.catalog -->
+
+    <footer class="footer">
+        <div class="footer__container">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="footer-info">
+                                    <div class="footer-info__logo">
+                                        <img src="img/minilogo.png" alt="minilogo">
+                                    </div>
+                                    <p class="footer-info__text">
+                                        Buy, autoparts or service premium cars from Dubai
+                                    </p>
+                                    <div class="footer-info__nav footer-nav">
+                                        <a href="#" class="footer-nav__link">for sale</a>
+                                        <a href="#" class="footer-nav__link">autoparts</a>
+                                        <a href="#" class="footer-nav__link">servicing</a>
+                                        <a href="#" class="footer-nav__link">about us</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="footer-contacts">
+                                    <div class="footer-contacts__phone contacts-phone">
+                                        <p class="contacts-phone__text">Call the office at:</p>
+                                        <a href="tel:+97146086808" class="contacts-phone__number">+971 4 608 68 08</a>
+                                    </div>
+                                    <div class="contact footer__messangers">
+                                        <a href="#" class="contact__links contact__links--whatsapp"></a>
+                                        <a href="#" class="contact__links contact__links--telegram"></a>
+                                    </div>
+                                    <a href="#" class="footer-contacts__btn">Request a callback</a>
+                                    <div class="footer-contacts__address contacts-address">
+                                        <p class="contacts-address__text">Our address</p>
+                                        <p class="contacts-address__info">Showroom 1, Al Roumi building, Al Ittihad Rd, Port Saeed, Dubai, UAE</p>
+                                    </div>
+                                </div>
+                                <!-- /.footer-contacts -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.footer-top -->
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="footer-terms">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="footer-term">
+                                                <div class="footer-term__icons term-icons">
+                                                    <div class="term-icons__img">
+                                                        <img src="img/term1.png" alt="term">
+                                                    </div>
+                                                    <div class="term-icons__popup term-popup">
+                                                        <img src="img/exclamation.png" alt="exclamation" class="term-popup__img">
+                                                        <p class="term-popup__text">После подписания договора, выставляем инвойс на оплату, по реквизитам автосалона.</p>
+                                                    </div>
+                                                </div>
+                                                <p class="footer-term__text">invoice</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="footer-term">
+                                                <div class="footer-term__icons term-icons">
+                                                    <div class="term-icons__img">
+                                                        <img src="img/term2.png" alt="term">
+                                                    </div>
+                                                    <div class="term-icons__popup term-popup">
+                                                        <img src="img/exclamation.png" alt="exclamation" class="term-popup__img">
+                                                        <p class="term-popup__text">После подписания договора, выставляем и</p>
+                                                    </div>
+                                                </div>
+                                                <p class="footer-term__text">usdt</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="footer-term">
+                                                <div class="footer-term__icons term-icons">
+                                                    <div class="term-icons__img">
+                                                        <img src="img/term3.png" alt="term3">
+                                                    </div>
+                                                    <div class="term-icons__popup term-popup">
+                                                        <img src="img/exclamation.png" alt="exclamation" class="term-popup__img">
+                                                        <p class="term-popup__text">После подписания договора, выставляем инвойс на оплату, по реквизитам автосалона.</p>
+                                                    </div>
+                                                </div>
+                                                <p class="footer-term__text">cash</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="footer-follow">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <a href="#" class="footer-follow__item follow-item">
+                                                <div class="follow-item__img">
+                                                    <img src="img/facebook.svg" alt="facebook">
+                                                </div>
+                                                <p class="follow-item__text">facebook</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="footer-follow__item follow-item">
+                                                <div class="follow-item__img">
+                                                    <img src="img/instagram.svg" alt="instagram">
+                                                </div>    
+                                                <p class="follow-item__text">instagram</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.footer-bottom -->
+        </div>
+        <!-- /.footer__container -->
+    </footer>
+    <!-- /.footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

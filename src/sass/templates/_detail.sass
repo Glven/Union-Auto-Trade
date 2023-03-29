@@ -1,0 +1,156 @@
+.detail
+    &__container
+        padding-top: 3.143rem
+        padding-bottom: 5.714rem
+    &__wrapper
+        position: relative
+    &-path
+        display: flex
+        align-items: center
+        span
+            display: block
+            font-size: 1rem
+            &::after
+                content: ""
+                display: inline-block
+                width: 0.357rem
+                height: 0.357rem
+                vertical-align: middle
+                margin: 0 0.714rem
+                border-radius: 50%
+                background: $dark
+            &:last-child
+                &::after
+                    display: none
+    &__title
+        margin-top: 4.286rem
+        margin-bottom: 3.214rem
+        font-size: 2.286rem
+        letter-spacing: 2px
+        font-weight: 700
+    &-slider
+        border-radius: 30px
+        overflow: hidden
+        &__wrapper
+            position: relative
+        &__img
+            height: 36.429rem
+            border-radius: 30px
+            overflow: hidden  
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+                object-position: 50% 50%
+    &-card
+        padding: 2.857rem
+        background: $light
+        border-radius: 30px
+        overflow: hidden
+        &--big-hide
+            display: none
+        &--big-show
+            position: sticky
+            z-index: 5
+            top: 0
+            left: 0
+        &__title
+            margin-bottom: 2.143rem
+            font-size: 1.714rem
+            font-weight: 700
+        &__list
+            display: flex
+            align-items: center
+            justify-content: space-between
+            margin-bottom: 1.786rem
+            &:last-child
+                margin-bottom: 0
+        .card-list
+            &__title
+                font-size: 1rem
+            &__prop
+                text-align: right
+                font-size: 1rem
+                font-family: 'Eurostile Extended Black', sans-serif
+            sup
+                font-size: 0.7rem
+                vertical-align: top
+        &__btn
+            width: 100%
+            margin-top: 6.071rem
+            padding: 1.714rem 0
+            border: 0.5px solid $secondary
+            background: transparent
+            color: $secondary
+            text-transform: uppercase
+            font-family: 'Eurostile Extended Black', sans-serif
+    &__description
+        margin-top: 1.429rem
+        border-radius: 30px
+        overflow: hidden
+        background: $light
+        .description
+            &__title
+                margin-bottom: 1rem
+                padding: 2.143rem 0 0 2.143rem
+                font-weight: 700
+                font-size: 1.714rem
+            &__text
+                max-width: 45.857rem
+                width: 100%
+                padding: 0 2.143rem
+                font-size: 1.143rem
+                font-family: 'Inter Light', sans-serif
+                line-height: 1.429rem
+            &__wrapper
+                margin-top: 1.789rem
+            &-item
+                padding: 2.143rem 5px 2.857rem 1.071rem
+                &__img
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 35px
+                    height: 35px
+                    margin-bottom: 3.214rem
+                &__name
+                    font-size: 12px
+                &__props
+                    margin-top: 5px
+                    font-size: 13px
+                    color: $secondary
+                    font-family: 'Eurostile Extended Black'
+            &__btn-more, &__btn-moreHide
+                display: none
+                margin: 0 2.143rem
+                margin-top: 1.667rem
+                text-transform: uppercase
+                font-family: 'Eurostile Extended Black', sans-serif
+                color: $secondary
+                cursor: pointer
+                font-size: 12px
+        .col-6
+            border-top: 1px solid #d9d9d9
+            border-right: 1px solid #d9d9d9
+            &:nth-child(3n)
+                 border-right: none
+    .slick-prev, .slick-next
+        position: absolute
+        z-index: 5
+        top: 100%
+        width: 3.571rem
+        height: 3.214rem
+        border: none
+        &::before
+            display: none
+    .slick-prev
+        left: 100%
+        border-radius: 12px 0 0 12px
+        background: $body-bg url('../img/arrow-prev.svg') no-repeat center
+        transform: translate(-8.9275rem, -5.357rem)
+        border-right: 1px solid #d9d9d9
+    .slick-next
+        transform: translate(-1.786rem, -5.357rem)
+        right: 0
+        background: $body-bg url('../img/arrow-next.svg') no-repeat center
+        border-radius: 0 12px 12px 0 

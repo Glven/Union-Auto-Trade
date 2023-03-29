@@ -1,0 +1,37 @@
+.features
+    &__container
+        padding-bottom: 11.929rem
+    &__block
+        display: flex
+        align-items: flex-end
+        min-height: 50rem
+        padding: 25px
+        border-radius: 30px
+        overflow: hidden
+        background: url('../img/features-bg.png') no-repeat center / cover
+    &-item
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        min-height: 23.214rem
+        padding: 2.143rem 1.071rem
+        border-radius: 10px
+        background: rgba($light, 0.6)
+        backdrop-filter: blur(10px)
+        overflow: hidden
+        .features-title
+            &__text
+                font-size: 1.714rem
+                line-height: 2rem
+                text-transform: uppercase
+            &__arrow
+                display: none
+                width: 22px
+                height: 22px
+                background: url('../img/arrow.svg') no-repeat center / contain
+                transition: 0.5s
+                &--active
+                    transform: rotate(180deg)
+        &__text
+            font-size: 1rem
+            line-height: 1.286rem

@@ -1,0 +1,335 @@
+@media screen and (min-width: 768px)
+    .menu
+        display: none
+    .deals
+        &__btnHide
+            display: none
+@media screen and (min-width: 992px) and (max-width: 1399px)
+    html
+        font-size: 13px
+    .purchase
+        &-item
+            min-height: 19.231rem
+@media screen and (min-width: 992px) and (max-width: 1199px)
+    .features
+        &-item
+            .features-title
+                &__text
+                    font-size: 1.385rem
+@media screen and (max-width: 991px)
+    html
+        font-size: 12px
+    .types-card__title
+        margin-top: 2rem !important
+    .features
+        &__block
+            min-height: 58.33rem
+        &-item
+            min-height: 16.667rem
+            margin-bottom: 1.667rem
+    .detail
+        &-card
+            margin-top: 1.667rem
+            &--big-hide
+                display: block
+            &--big-show
+                display: none
+        &__description
+            margin-top: 1.667rem
+            .col-6
+                border-right: 1px solid #d9d9d9 !important
+                &:nth-child(2n)
+                    border-right: none
+    .catalog
+        position: relative
+        &__wrapper
+            margin-top: 2.5rem
+        &__filter-btn
+            display: inline-block
+            margin-top: 2.5rem
+            border: 1px solid $primary
+            border-radius: 6px
+            padding: 10px 3.5rem
+            font-family: 'Inter Medium', sans-serif
+            background: $primary
+            font-size: 1.1667rem
+            letter-spacing: 1px
+            color: $light
+        &__sidebar
+            position: fixed
+            z-index: 5
+            top: 0
+            right: 0
+            width: 100%
+            height: 100%
+            display: flex
+            justify-content: flex-end
+            align-items: flex-start
+            overflow-y: scroll
+            background: rgba($dark, 0.8)
+            backdrop-filter: blur(3px)
+            transition: 0.3s
+            transform: translateX(100%) scaleX(0)
+            &--active
+                transform: translateX(0) scaleX(1)
+        .filter
+            position: relative
+            max-width: 315px 
+            width: 100%
+            min-height: 100%
+            background: $light
+            &__close
+                position: absolute
+                z-index: 7
+                top: 5px
+                right: 2%
+                width: 2.5rem
+                height: 2.5rem
+                display: flex
+                align-items: center
+                justify-content: center
+                border: 1px solid $secondary
+                border-radius: 50%
+                span
+                    display: block
+                    width: 70%
+                    height: 2px
+                    background: $secondary
+                    transform: rotate(45deg)
+                    border-radius: 2px
+                    &::before
+                        content: ""
+                        display: block
+                        width: 100%
+                        height: 2px
+                        background: $secondary
+                        border-radius: 2px
+                        transform: rotate(-90deg)
+@media screen and (min-width: 768px) and (max-width: 991px)
+    .services
+        &__container
+            padding-bottom: 6.5rem
+        &__card
+            &--big
+                height: 35.714rem
+            &--small
+                height: 17rem
+@media screen and (max-width: 767px)  
+    .hero
+        &__container
+            min-height: 660px
+            &::before
+                border-radius: 0 0 30px 30px
+    .header-top
+        display: none
+    .menu
+        position: fixed
+        z-index: 100
+        width: 100%
+        height: 100%
+        transition: all 0.2s ease
+        transform: translateX(-100%) scaleX(0)
+        &--active
+            background: rgba($dark, 0.8)
+            backdrop-filter: blur(3px)
+            transform: translateX(0) scaleX(1)
+        &__wrapper
+            max-width: 330px
+            background: rgba($light, 0.8)
+            position: relative
+            height: 100%
+        &__logo
+            display: flex
+            justify-content: center
+            padding: 1.667rem 0
+        &-nav
+            display: flex
+            flex-direction: column
+            align-items: center
+            font-size: 14px
+            &__link
+                display: block
+                margin: 10px 0
+                color: $dark
+                text-transform: uppercase
+                letter-spacing: 1px
+        &__close
+            position: absolute
+            top: 10px
+            right: 3%
+            z-index: 102
+            width: 2.5rem
+            height: 2.5rem
+            display: flex
+            align-items: center
+            justify-content: center
+            border: 1px solid $secondary
+            border-radius: 50%
+            span
+                display: block
+                width: 60%
+                height: 2px
+                background: $secondary
+                border-radius: 2px
+                transform: rotate(45deg)
+                &::before
+                    content: ""
+                    display: block
+                    width: 100%
+                    height: 2px
+                    background: $secondary
+                    border-radius: 2px
+                    transform: rotate(-90deg)
+    .open-menu
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 50px
+        span
+            display: block
+            width: 24px
+            height: 2px
+            &::before, &::after
+                content: ""
+                display: block
+                width: 100%
+                height: 2px
+            &::before
+                transform: translateY(-6px)
+            &::after
+                transform: translateY(4px) 
+    .nav
+        display: none
+    .header-logo
+        padding: 1.5rem 0
+        border-left: 1px solid $light
+        border-right: 1px solid $light
+    .header-hideCall
+        display: flex
+        justify-content: center
+        a
+            display: block
+            width: 20px
+            height: 20px
+    .services
+        &__container
+            padding-bottom: 5rem
+        &__card
+            height: 23.34rem
+            margin-bottom: 10px !important
+        &__img
+            width: 100%
+            height: 120%
+            top: 50%
+            left: 0
+            transform: translateY(-55%)
+        &__text
+            padding: 1.667rem
+    .types-card__title
+        margin-top: 1rem !important
+    .vehicle-tabs__item
+        font-size: 12px
+    .deals
+        &-card
+            &:hover
+                background: none
+                box-shadow: none
+                .card-img
+                    &__back
+                        color: $light
+                    img
+                        transform: none
+        &__btn
+            display: block
+            width: 100%
+            padding: 14px
+            color: $primary
+            &Hide
+                width: 100%
+                padding: 14px
+                color: $primary
+    .purchase 
+        &__img
+            height: 37.5rem
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+                object-position: 45% 50%
+        &__title
+            margin-top: 5rem
+        &-item
+            min-height: 0
+            &__btn
+                margin-top: 2.5rem
+    .features
+        &__container
+            padding-bottom: 6rem
+        &__block
+            min-height: 65rem
+            padding-bottom: 0
+        &-item
+            backdrop-filter: none
+            background: $light
+            transition: 0.3s
+            min-height: 0
+            .features-title
+                &__text
+                    max-width: 17.5rem
+                &__arrow
+                    display: block
+            &__text
+                display: none
+                margin-top: 1.667rem
+    .footer
+        &-nav
+            display: none !important
+        &-info
+            &__text
+                margin-bottom: 2.5rem
+        &__messangers
+            justify-content: center
+        &-contacts
+            &__btn
+                width: 100%
+                margin-bottom: 3.833rem
+                text-align: center
+        &-bottom
+            position: relative
+            padding-bottom: 4.5rem
+        &-follow
+            margin-top: 2.5rem
+            &::before
+               content: ""
+               position: absolute
+               z-index: 5
+               top: 43%
+               left: 0
+               display: block
+               width: 100%
+               height: 1px
+               background: #d9d9d9 
+    .detail
+        &-slider
+            &__img
+                height: 22.5rem
+        .description
+            &__text
+                height: 7.2rem
+                overflow: hidden
+                transition: 0.3s
+                &--active
+                    height: auto
+                    margin-bottom: 1.667rem
+            &__btn-more
+                display: inline-block
+@media screen and (min-width: 576px) and (max-width: 767px)
+    .purchase
+        &-item
+            min-height: 19.166rem
+@media screen and (max-width: 575px)
+    .header
+        .open-menu
+            padding-left: 1rem
+        &-hideCall
+            padding-right: 1rem

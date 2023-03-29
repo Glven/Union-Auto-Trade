@@ -1,0 +1,79 @@
+.vehicle
+    &__container
+        padding-bottom: 4.286rem
+    &__title
+        margin-bottom: 1.423rem
+    &-tabs
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 4.429rem
+        &__item
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-basis: 50%
+            padding: 1.571rem 0
+            border: 1px solid #d9d9d9
+            text-transform: uppercase
+            font-weight: 700
+            font-size: 1.143rem
+            letter-spacing: 1.5px
+            cursor: pointer
+            transition: 0.3s
+            &:first-child
+                border-radius: 20px 0 0 20px
+                border-right: none
+            &:last-child
+                border-left: none
+                border-radius: 0 20px 20px 0
+            &--active
+                background: $primary
+                border-color: $primary
+                color: $light
+    &-item
+        display: none
+    .types
+        &-card
+            display: block
+            margin-bottom: 1.429rem
+            &__img
+                display: flex
+                align-items: center
+                justify-content: center
+                height: 5.143rem
+                img
+                    width: 100%
+            &__title
+                display: block
+                margin-top: 0.714rem
+                text-align: center
+                font-size: 1rem
+                color: $primary
+        &__btnHide
+            display: none
+            margin-left: 50%
+            transform: translateX(-50%)
+    .brands
+        &-card
+            display: block
+            margin-bottom: 1.429rem
+            &__img
+                display: flex
+                align-items: center
+                justify-content: center
+                height: 5.143rem
+            &__title
+                display: block
+                margin-top: 0.714rem
+                text-align: center
+                font-size: 1rem
+                color: $primary
+        &__btnHide
+            display: none
+            margin-left: 50%
+            transform: translateX(-50%) 
+    &__btn
+        margin-top: 1.429rem
+        color: $primary
+        padding: 10px 6.143rem

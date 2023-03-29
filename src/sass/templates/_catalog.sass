@@ -1,0 +1,174 @@
+.catalog
+    &__wrapper
+        margin-top: 6.714rem
+    &__filter-btn
+        display: none
+    &-pagination
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-top: 1.714rem
+        margin-bottom: 7.286rem
+        &__wrapper
+            display: flex
+            align-items: center
+            border: 1px solid #989898
+            border-radius: 4px
+            overflow: hidden
+        &__item
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 3.214rem
+            height: 3.214rem
+            border: none
+            border-right: 1px solid #989898
+            background: transparent
+            color: #989898
+            font-family: 'Inter Medium', sans-serif
+            font-size: 1.286rem
+            cursor: pointer
+            transition: 0.3s
+            &:last-child
+                border: none
+            &:hover
+                background: $primary
+                color: $light
+        &__arrow
+            font-size: 1.571rem
+.filter
+    background: $light
+    padding: 0 9px
+    *
+        font-family: 'Inter Medium', sans-serif
+    &-item
+        padding-top: 1.786rem
+        padding-bottom: 2.143rem
+        border-bottom: 1px solid #d9d9d9
+    &-price
+        &__item
+            display: flex
+            align-items: center
+            justify-content: space-between
+        &__text
+            margin-top: 2.143rem
+            font-size: 12px
+            span
+                color: $primary
+    &__title
+        margin-bottom: 9px
+        font-size: 1.143rem
+        font-weight: 600
+    .select
+        margin-top: 9px
+        position: relative
+        display: block
+        max-width: 9.429rem
+        width: 100%
+        border: 1px solid #d9d9d9
+        border-radius: 3px
+        &::after
+            content: ""
+            position: absolute
+            z-index: 3
+            top: 50%
+            right: 8px
+            display: block
+            width: 10px
+            height: 10px
+            transform: translateY(-50%)
+            background: url('../img/arrow-down.svg') no-repeat center / contain
+    .new-select
+        position: relative
+        z-index: 2
+        padding: 6px 8px
+        cursor: pointer
+        user-select: none
+        font-size: 12px
+        &__list
+            position: absolute
+            z-index: 4
+            top: 100%
+            left: 0
+            border: 1px solid #d9d9d9
+            width: 100%
+            background: $light
+            cursor: pointer
+            user-select: none
+            font-size: 12px
+            &.on
+                display: block
+        &__item
+            span
+                display: block
+                padding: 6px 8px
+    &-style
+        &__checkboxes
+            position: relative
+            input
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+                z-index: -2
+                opacity: 0
+        &__label
+            display: block
+            margin-top: 12px
+            padding: 1.214rem 0
+            border-radius: 3px
+            border: 1px solid #d9d9d9
+            text-align: center
+            font-size: 12px
+            cursor: pointer
+            transition: 0.3s
+            &--active
+                border-color: $primary
+                background: $primary
+                color: $light
+    &-deals
+        &__item
+            display: flex
+            align-items: center
+            justify-content: space-between
+        &__label
+            cursor: pointer
+            font-size: 12px
+            color: $secondary
+        &__checkbox
+            width: 1.214rem
+            height: 1.214rem
+            border: 1px solid $secondary
+            margin: 0
+    &-select
+        &__item
+            position: relative
+            margin-bottom: 7px
+        &__checkbox
+            position: absolute
+            z-index: -2
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            opacity: 0
+        &__label
+            display: block
+            border-radius: 4px
+            padding: 6px 0
+            border: 1px solid #d9d9d9
+            cursor: pointer
+            transition: 0.3s
+            &--active
+                border-color: $primary
+                box-shadow: 0 0 3px rgba($primary, 0.4)
+            img
+                height: 3.214rem
+                object-fit: contain
+                object-position: bottom
+                width: 100%
+            span
+                display: block
+                font-size: 10px
+                font-family: 'Inter Light', sans-serif
+                text-align: center
+                color: $secondary
