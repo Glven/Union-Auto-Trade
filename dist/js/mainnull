@@ -56,6 +56,8 @@ $(document).ready(function () {
             dots: false,
             fade: true,
             speed: 500,
+            autoplay: true,
+            autoplaySpeed: 3000,
         });
         if($(window).width()<768){
             $('.description__btn-more').click(function(){
@@ -183,7 +185,22 @@ $(document).ready(function () {
         if (e.which == 27){
           $('.modal').fadeOut(300);
         }
-      });
+    });
+
+    $('.menu').mouseup(function(e){
+        e.preventDefault();
+        if(e.target == this && e.target != $('.menu__wrapper')){
+            $(this).removeClass('menu--active');
+        }
+    });
+
+    $('.catalog__sidebar').mouseup(function(e){
+        e.preventDefault();
+        if(e.target == this && e.target != $('.catalog__filter')){
+            $(this).removeClass('catalog__sidebar--active');
+        }
+    });
+
 
     function showAndHide(array, number, btn, hideBtn){
         if(array.length>number){
@@ -206,4 +223,5 @@ $(document).ready(function () {
             $(btn).fadeIn(300);
         });
     }
+
 });

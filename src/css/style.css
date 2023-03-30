@@ -139,7 +139,7 @@ body {
   position: relative;
   z-index: 2;
   min-height: 100vh;
-  background: url("../img/hero-bg.png") no-repeat center/cover;
+  background: url("../img/hero-bg.png") no-repeat 50% 0/cover;
   background-attachment: fixed;
   border-radius: 0 0 30px 30px;
   padding-bottom: 11.857rem;
